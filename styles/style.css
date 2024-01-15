@@ -76,10 +76,10 @@ nav{
 .banner{
     background:  linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/banner.png');
     background-repeat: no-repeat;
-    width: 1170px;
-    height: 500px;
+    background-position: center;
+    background-size: cover;
     border-radius: 16px;
-    margin: 50px 135px;
+    margin: 60px 135px;
     text-align: center;
     align-items: center;
 }
@@ -115,5 +115,49 @@ nav{
     font-size: 1rem;
     font-weight: 400;
     padding: 16px;
+}
+.banner-inputs:focus{
+    outline: 0;
+}
+.search-icon{
+    width: 20px;
+    height: 20px;
+    margin-left: -5px;
+}
+.banner button{
+    font-size: 16px;
+    padding-bottom: 6px;
+}
 
+/* Popular Tour Part */
+.popular-tour{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 135px;
+    gap: 50px;
+}
+.popular-tour-title{
+    color: var(--black);
+    font-family: var(--main-font);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.popular-tour-description{
+    width: 580px;
+    height: 450px;
+    color: var(--text-color);
+    font-family: var(--main-font);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    overflow-y: scroll;
+}
+.popular-tour-img img{
+    margin-bottom: 50px;
+}
+/* Footer */
+footer{
+    margin-top: 100px;
+    width: 100%;
 }

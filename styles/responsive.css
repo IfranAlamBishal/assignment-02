@@ -1,0 +1,41 @@
+  @media screen and (max-width:576px) {
+
+    nav, .nav-links, .popular-tour{
+        flex-direction: column;
+        margin: 30px 50px;
+    }
+    .logo-and-title{
+        gap: 10px;
+    }
+    .banner, .popular-tour, .popular-tour-description{
+        width: auto;
+        margin: 20px;
+    }
+
+    .banner-title{
+        margin: 0;
+        padding-top: 32px;
+        font-size: 1.4rem;
+    }
+    .banner-info{
+        width: 304px;
+        margin: 8px 20px;
+        text-align: justify;
+    }
+    .banner-form{
+        flex-direction: column;
+        margin-top: 24px;
+        margin-bottom: 32px;
+        padding: 24px;
+    }
+    .banner-inputs, .banner-form>button{
+        width: 255px;
+        height: 52px;
+        padding: 0;
+    }
+    .popular-tour-img img{
+        width: 380px;
+        height: 380px;
+    }
+    
+ }

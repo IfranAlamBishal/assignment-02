@@ -189,6 +189,73 @@ nav{
         width: 100%;
         margin: 12px;
 }
+
+/* Why Choose Us */
+
+.why-choose-us{
+    margin: 50px 135px;
+}
+
+.why-us-ttle{
+    text-align: center;
+    color: var(--black);
+    font-family: var(--main-font);
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+    
+}
+.why-us-description{
+    width: 643px;
+    text-align: center;
+    color: var(--text-color);
+    font-family: var(--main-font);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 280px;
+    margin-bottom: 48px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.why-choose-us-card{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+    margin: 24px;
+}
+.card-title{
+    color: #131318;
+    font-family: var(--main-font);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.card-info{
+    width: 486px;
+    color: #5A5A5D;
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-img{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 32px;
+}
+#bg-green{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+#middle-card{
+    margin-left: 400px;
+}
 /* Newsletter Part */
 .newsletter{
     display: flex;

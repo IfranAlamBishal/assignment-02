@@ -1,7 +1,8 @@
   /* small device */
   @media screen and (max-width:576px) {
 
-    nav, .nav-links, .popular-tour, .newsletter, .destination-img-container{
+    nav, .nav-links, .popular-tour, .newsletter, .destination-img-container,
+    .card-container{
         flex-direction: column;
         margin: 30px 50px;
     }
@@ -51,9 +52,24 @@
         width: 335px;
         height: 176px;
     }
+    .why-us-description{
+        width: 309px;
+        text-align: justify;
+    }
+    #middle-card{
+        margin-left: 16px;
 
-    .newsletter, .destinations{
+    }
+    .why-choose-us-card{
+    width: 300px;
+    height: 280px;
+    }
+    .newsletter, .destinations, .why-choose-us, .why-us-description, .card-container{
         margin: 16px auto;
+    }
+    .card-info{
+        width: 271px;
+        padding-bottom: 32px;
     }
     .newsletter-details{
         width: 300px;

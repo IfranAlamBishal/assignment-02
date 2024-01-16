@@ -210,6 +210,25 @@ nav{
     width: 393px;
     height: 52px;
 }
+.newslettert-img-container{
+    position: relative;
+}
+.sale-70{
+    position: absolute;
+    bottom: 55px;
+    right: 17px;
+    background: var(--theme-color);
+    border-radius: 16px;
+    border: none;
+    color: var(--white);
+    width: 324px;
+    height: 110px;
+    transform: rotate(-19.628deg);
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 2rem;
+    padding-top: 60px;
+}
 /* Footer */
 footer{
     margin-top: 50px;

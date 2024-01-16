@@ -61,6 +61,13 @@
         border-radius: 16px;
 
     }
+    .sale-70{
+        width: 214px;
+        height: 78px;
+        padding-top: 30px;
+        font-size: 1.3rem;
+        right: 50px;
+    }
     /* Footer */
     footer{
         margin-top: 50px;

@@ -1,7 +1,7 @@
   /* small device */
   @media screen and (max-width:576px) {
 
-    nav, .nav-links, .popular-tour{
+    nav, .nav-links, .popular-tour, .newsletter{
         flex-direction: column;
         margin: 30px 50px;
     }
@@ -40,7 +40,27 @@
         margin: 16px auto ;
         padding: 0 auto;
     }
+    .newsletter{
+        margin: 16px auto;
+    }
+    .newsletter-details{
+        width: 300px;
+        margin: 16px auto;
+        padding: 25px;
+    }
+    .newsletter-info, .newsletter-input{
+        width: 270px;
+    }
+    #Subscribe{
+        width: 280px;
+    }
+    .newsletter-img{
+        width: 350px;
+        height: 320px;
+        margin: 20px 20px;
+        border-radius: 16px;
 
+    }
     /* Footer */
     footer{
         margin-top: 50px;

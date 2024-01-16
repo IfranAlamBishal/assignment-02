@@ -158,9 +158,61 @@ nav{
 .popular-tour-img img{
     margin-bottom: 50px;
 }
+/* Newsletter Part */
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 50px 135px;
+}
+.newsletter-details{
+    border-radius: 16px;
+    border: 1px solid var(--theme-color);
+    padding: 40px;
+}
+.newsletter-title{
+    color: var(--black);
+    font-family:var(--main-font);
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.newsletter-info{
+    width: 400px;
+    color: var(--text-color);
+    font-family: var(--main-font);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.newsletter-details hr{
+    background: rgba(19, 19, 24, 0.10);
+    height: 1px;
+    margin-bottom: 24px;
+}
+.newsletter-input{
+    width: 393px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 16px;
+    padding-left: 20px;
+    color: var(--text-color);
+    font-family: var(--main-font);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.newsletter-input:focus{
+    outline: 0;
+}
+#Subscribe{
+    width: 393px;
+    height: 52px;
+}
 /* Footer */
 footer{
-    margin-top: 100px;
+    margin-top: 50px;
     width: 100vw;
     background-color: rgba(19, 19, 24, 0.05);
     text-align: center;

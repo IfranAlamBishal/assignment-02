@@ -1,7 +1,7 @@
   /* small device */
   @media screen and (max-width:576px) {
 
-    nav, .nav-links, .popular-tour, .newsletter{
+    nav, .nav-links, .popular-tour, .newsletter, .destination-img-container{
         flex-direction: column;
         margin: 30px 50px;
     }
@@ -40,7 +40,19 @@
         margin: 16px auto ;
         padding: 0 auto;
     }
-    .newsletter{
+    .destination-info{
+        margin: 10px 33px;
+        width: 300px;
+    }
+    .destination-img-container{
+        margin: 0 20px;
+    }
+    .destination-img{
+        width: 335px;
+        height: 176px;
+    }
+
+    .newsletter, .destinations{
         margin: 16px auto;
     }
     .newsletter-details{
@@ -66,7 +78,7 @@
         height: 78px;
         padding-top: 30px;
         font-size: 1.3rem;
-        right: 50px;
+        right: 15%;
     }
     /* Footer */
     footer{

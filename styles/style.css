@@ -158,6 +158,37 @@ nav{
 .popular-tour-img img{
     margin-bottom: 50px;
 }
+/* Destinations */
+
+.destinations{
+    margin: 50px 135px;
+    text-align: center;
+}
+.destination-title{
+    color: var(--black);
+    font-family: var(--main-font);
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.destination-info{
+    width: 643px;
+    margin-left: 263px;
+    color: var(--text-color);
+    font-family: var(--main-font);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.destination-img-container{
+    display: flex;
+    justify-content: space-between;
+}
+.destination-img{
+        width: 100%;
+        margin: 12px;
+}
 /* Newsletter Part */
 .newsletter{
     display: flex;

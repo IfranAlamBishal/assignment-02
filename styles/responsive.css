@@ -1,3 +1,4 @@
+  /* small device */
   @media screen and (max-width:576px) {
 
     nav, .nav-links, .popular-tour{
@@ -34,8 +35,33 @@
         padding: 0;
     }
     .popular-tour-img img{
-        width: 380px;
-        height: 380px;
+        width: 340px;
+        height: 350px;
+        margin: 16px auto ;
+        padding: 0 auto;
+    }
+
+    /* Footer */
+    footer{
+        margin-top: 50px;
+    }
+    #footer-logo, .footer-description, footer hr, .footer-socials img{
+        margin: 16px 20px;
     }
     
+ }
+
+ /* medium device */
+ @media screen and (min-width:577px) and (max-width:992px){
+  
+    nav, .popular-tour{
+        flex-direction: column;
+    }
+    .banner, .popular-tour{
+        margin: 20px 60px;
+    }
+    .banner-form{
+        display: flex;
+        flex-wrap: wrap;
+    }
  }

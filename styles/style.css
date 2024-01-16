@@ -10,6 +10,7 @@
     --theme-color: #FF5400;
     --black: #131318;
     --text-color: rgba(19, 19, 24, 0.70);
+    --secondary-text-color : #5A5A5D;
     --white: #fff;
 }
 .primary-btn{
@@ -40,7 +41,7 @@ nav{
 }
 .logo-and-title{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 16.6px;
     text-align: center;
     align-items: center;
@@ -144,13 +145,14 @@ nav{
 }
 .popular-tour-description{
     width: 580px;
-    height: 450px;
+    height: 420px;
     color: var(--text-color);
     font-family: var(--main-font);
     font-size: 1rem;
     font-weight: 400;
     margin-top: 24px;
     margin-bottom: 32px;
+    padding-right: 10px;
     overflow-y: scroll;
 }
 .popular-tour-img img{
@@ -159,5 +161,40 @@ nav{
 /* Footer */
 footer{
     margin-top: 100px;
-    width: 100%;
+    width: 100vw;
+    background-color: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    align-items: center;
+}
+#footer-logo{
+    padding-top: 110px;
+    margin-bottom: 15px;
+}
+.footer-description{
+    font-family: var(--main-font);
+    font-size: 1rem;
+    color: var(--secondary-text-color);
+    margin-bottom: 32px;
+}
+.footer-socials{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.footer-socials img{
+    width: 24px;
+    height: 24px;
+    margin: 0 20px;
+}
+footer hr{
+    margin: 50px 284px;
+    background: rgba(19, 19, 24, 0.10);
+    height: 1px;
+}
+#rights{
+    padding-bottom: 110px;
+    color: var(--black);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 300;
 }
